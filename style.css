@@ -1,0 +1,57 @@
+.basis-achtergrond {
+    background-color: grey;
+}
+
+.nav-main {
+    width:100%;
+}
+
+.btn-toggle-menu {
+    width: 10rem;
+    height: 10rem;
+    background-image: url("hamburger.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+  
+.nav-menu {
+    position: fixed;
+    left: 0rem;
+    top: 9rem;
+    width: 15rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: 200;
+    color: #fff;
+    visibility: hidden;
+}
+
+.nav-menu li {
+    display: block;
+    padding: .5em .5em;    
+    margin-bottom:.2em;
+    border: 1px solid black;
+    cursor:pointer;
+}
+
+#basisAchtergrond {
+    background: grey;
+}
+
+#rodeAchtergrond {
+    background:rgb(230, 79, 79);
+}
+
+#oranjeAchtergrond {
+    background:rgb(187, 130, 25);
+}
+
+#paarseAchtergrond {
+    background:rgb(105, 34, 105);
+}
+
+#groeneAchtergrond {
+    background:rgb(14, 90, 14);
+}
